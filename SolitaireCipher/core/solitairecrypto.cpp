@@ -258,12 +258,12 @@ string SolitaireCrypto::decrypt() {
         keywork=charCodeAt(keystream[i]);
 		keywork=(keywork-64)%26;
 		cipherwork=charCodeAt(ciphertext[i]);
-		cipherwork=(cipherwork-64)%26;
+        cipherwork=(cipherwork-64)%26;
 		outwork=(cipherwork-keywork)%26;
-		if(outwork<0) {outwork=26+outwork;}
+        if(outwork<0) {outwork=26+outwork;}
 		outwork=outwork+64;
-		if(outwork==64) {outwork=90;}
-		output += fromCharCode(outwork);
+        if(outwork==64) {outwork=90;}
+        output += fromCharCode(outwork);
 	}
     cleartext.assign(output);
 	return output;
