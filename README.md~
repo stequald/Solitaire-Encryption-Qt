@@ -16,9 +16,9 @@ Run
 =======================
 
 Dependencies:
-	Qt
+Qt
 	
 Run:
-	qmake
-	make
-	./SolitaireCipher	
+qmake
+make
+./SolitaireCipher
