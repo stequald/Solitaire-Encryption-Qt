@@ -16,9 +16,11 @@ Run
 =======================
 
 Dependencies:
+
 Qt
 	
 Run:
+
 qmake
 make
 ./SolitaireCipher
