@@ -19,6 +19,4 @@ Dependencies:
 	Qt
 	
 Run:
-	qmake
-	make
-	./SolitaireCipher
+You can either import it into Qt Creator and run it from there or do qmake, make ./SolitaireCipher in the command line.
